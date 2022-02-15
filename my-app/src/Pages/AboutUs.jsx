@@ -2,14 +2,12 @@ import { Row, Col, Button, Card } from "react-bootstrap";
 import { saveAs } from "file-saver";
 import SectionTitle from "../Components/SectionTitle/SectionTitle";
 import "./AboutUs.css";
-import myPic from "./materials/info-pic.jpg";
+import myPic from "./materials/info-pic.png";
 import AboutInfo from "../Components/AboutInfo/AboutInfo";
-import Subsection from "../Components/Subsection/Subsection";
-import AboutCard from "../Components/AboutCard/AboutCard";
 
 export default function AboutUs() {
   const saveFile = () => {
-    saveAs("http://localhost:8000/about-me/curriculum.pdf", "CV.pdf");
+    saveAs("http://localhost:8000/about-me/curriculum.pdf", "Jorge_Luis_Sanchez_Chavez_CV.pdf");
   };
 
   return (
@@ -64,59 +62,6 @@ export default function AboutUs() {
           </Row>
           <div className="div-pic"></div>
         </div>
-
-        <Subsection
-          description="We offer several IT solutions"
-          title="My Services"
-        />
-        {/* PARA BUSCAR NUEVOS ICONOS: https://icons.getbootstrap.com/icons/cpu-fill/ */}
-        <Row>
-          <Col className="about-col--icons">
-            <AboutCard
-              iconClass="bi bi-brush"
-              cardTitle="Design Trends"
-              cardText="I can make a design for your website"
-            />
-          </Col>
-          <Col className="about-col--icons">
-            <AboutCard
-              iconClass="bi bi-code"
-              cardTitle="Web Development"
-              cardText="I have extensive experience in creating web pages"
-            />
-          </Col>
-          <Col className="about-col--icons">
-            <AboutCard
-              iconClass="bi bi-tablet"
-              cardTitle="App Development"
-              cardText="Do you have an idea for an app? Tell me and I'll help you"
-            />
-          </Col>
-        </Row>
-
-        <Row>
-          <Col className="about-col--icons">
-            <AboutCard
-              iconClass="bi bi-robot"
-              cardTitle="Process Automation"
-              cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-            />
-          </Col>
-          <Col className="about-col--icons">
-            <AboutCard
-              iconClass="bi bi-info-circle"
-              cardTitle="IT consulting"
-              cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-            />
-          </Col>
-          <Col className="about-col--icons">
-            <AboutCard
-              iconClass="bi bi-pc-display-horizontal"
-              cardTitle="Ya no se que poner"
-              cardText="Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-            />
-          </Col>
-        </Row>
       </div>
     </>
   );

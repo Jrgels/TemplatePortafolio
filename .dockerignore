@@ -1,2 +1,5 @@
 node_modules
 npm-debug.log
+back-end/.env
+back-end/db.sqlite
+my-app

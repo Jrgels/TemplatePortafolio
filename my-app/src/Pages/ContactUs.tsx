@@ -25,13 +25,10 @@ export default function ContactUs() {
           </p>
           
           <ContactInfo iconClass="bi-file-person-fill" titulo="Name" texto="Jorge Sanchez"/>
-          <ContactInfo
-            iconClass="bi-geo-alt-fill"
-            titulo="Location"
-            texto="Ciudad de México, México."
-          />
+          <ContactInfo iconClass="bi-geo-alt-fill" titulo="Location" texto="Ciudad de México, México."/>
           <ContactInfo iconClass="bi-send" titulo="Email me" texto="jrgels99@gmail.com" mail={true}/>
-          <ContactInfo iconClass="bi-linkedin" titulo="Linkedin" texto="Check out my Linkedin"/>
+          <ContactInfo iconClass="bi-linkedin" titulo="LinkedIn" texto="Check out my Linkedin" link="https://www.linkedin.com/in/jorge-luis-s%C3%A1nchez-ch%C3%A1vez-55ba9322a/"/>
+          <ContactInfo iconClass="bi-github" titulo="GitHub" texto="Check out my GitHub" link="https://github.com/Jrgels"/>
         </Col>
       </Row>
     </Container>
