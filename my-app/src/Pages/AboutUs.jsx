@@ -2,7 +2,7 @@ import { Row, Col, Button, Card } from "react-bootstrap";
 import { saveAs } from "file-saver";
 import SectionTitle from "../Components/SectionTitle/SectionTitle";
 import "./AboutUs.css";
-import myPic from "./materials/info-pic.png";
+import myPic from "./materials/info-pic.jpg";
 import AboutInfo from "../Components/AboutInfo/AboutInfo";
 
 export default function AboutUs() {
