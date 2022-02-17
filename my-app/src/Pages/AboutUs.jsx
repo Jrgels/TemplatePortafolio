@@ -7,7 +7,7 @@ import AboutInfo from "../Components/AboutInfo/AboutInfo";
 
 export default function AboutUs() {
   const saveFile = () => {
-    saveAs("http://localhost:8000/about-me/curriculum.pdf", "Jorge_Luis_Sanchez_Chavez_CV.pdf");
+    saveAs(window.location.pathname + "/curriculum.pdf", "Jorge_Luis_Sanchez_Chavez_CV.pdf");
   };
 
   return (
@@ -28,7 +28,7 @@ export default function AboutUs() {
                 I'm Jorge Sanchez, a Software Engineer and Web Developer
               </h1>
               <p className="p-about">
-                I am a freelancer based in Mexico City and i have been building
+                I am a freelancer based in Mexico City and I have been building
                 noteworthy UX/UI designs and websites for years, which comply
                 with the latest design trends. I help convert a vision and an
                 idea into meaningful and useful products. Having a sharp eye for

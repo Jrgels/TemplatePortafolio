@@ -1,0 +1,7 @@
+⚡️[server]: Server is running at http://localhost:8000
+Connected to the SQLite database.
+Table already created
+-725620531
+url: https://api.telegram.org/bot5247714498:AAEpgjjDX8RnzodXbIURB_vr69gI1kbpAjk/sendMessage?chat_id=-725620531&text=-Name: prueba%0A-Email: jrgels@gmail.com%0A-Subject: prueba%0A-Message: prueba
+-725620531
+url: https://api.telegram.org/bot5247714498:AAEpgjjDX8RnzodXbIURB_vr69gI1kbpAjk/sendMessage?chat_id=-725620531&text=-Name: acento%0A-Email: jrgels@gmail.com%0A-Subject: acento%0A-Message: página

@@ -86,7 +86,7 @@ export default function Trajectory() {
           <Col className="about-col--icons">
             <TrajectoryCard
               tit="Freelance project manager"
-              sub="Web Development | From December de 2021 to date"
+              sub="Web Development | From December 2021 to date"
               txt="Responsible for the coordination, planning and implementation of web pages,
               Responsible of the Front-End development using React JS and TypeScript,
               I set up Linux servers using Debian, Docker and NGINX"

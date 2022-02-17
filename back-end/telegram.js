@@ -18,7 +18,7 @@ const sendNotification = (text) => {
     console.error(error)
   })
 
-  console.log(url,text);
+  console.log("url: "+url);
 };
 
 module.exports = {sendNotification}
